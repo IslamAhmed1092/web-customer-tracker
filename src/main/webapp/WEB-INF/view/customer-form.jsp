@@ -34,6 +34,8 @@
 
         <form:form action="saveCustomer" modelAttribute="customer" method="post">
 
+            <form:hidden path="id"/>
+
             <table>
                 <tbody>
                     <tr>
